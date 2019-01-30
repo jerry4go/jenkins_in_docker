@@ -4,7 +4,7 @@
 
 # 构建
 
-`docker build -t jks:2.4 .`
+`docker build -t jks:v1.0.0 .`
 
 # 运行
 
@@ -17,7 +17,7 @@ docker run \
 -v /data/jenkins_home:/var/jenkins_home \
 -u root \
 --name=Jenkins \
-jks:2.4
+jks:v1.0.0
 
 ```
 
