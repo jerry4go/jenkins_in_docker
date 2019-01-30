@@ -17,7 +17,7 @@ docker run \
 -v /data/jenkins_home:/var/jenkins_home \
 -u root \
 --name=Jenkins \
-jks2.4
+jks:2.4
 
 ```
 
@@ -28,3 +28,16 @@ web访问端口
 #### 50000端口 
 
 slave agent访问端口,如果不需要可以不开放
+
+## 文件说明
+
+executors.groovy 
+
+定义jenkins并发作业的job数量
+
+plugins.txt
+
+定义jenkins集成哪些插件，以及插件对应的版本
+
+不带版本号，则使用最新的版本
+
