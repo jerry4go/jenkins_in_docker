@@ -1,0 +1,7 @@
+maven-plugin:3.2
+pipeline-maven
+git
+git-parameter
+ansible
+role-strategy
+matrix-auth
