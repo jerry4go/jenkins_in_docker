@@ -1,10 +1,10 @@
 # 下载
 
-git clone https://github.com/jerry4go/jenkins_in_docker.git
+`git clone https://github.com/jerry4go/jenkins_in_docker.git`
 
 # 构建
 
-docker build -t jks:2.4 .
+`docker build -t jks:2.4 .`
 
 # 运行
 
