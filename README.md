@@ -31,6 +31,17 @@ slave agent访问端口,如果不需要可以不开放
 
 ## 文件说明
 
+#### Dockerfile
+
+1. 修改了并发jobs的数量，从默认2修改为5
+
+2. 配置时区为中国时区
+
+3. 安装ansible官方源和ansible最新版本
+
+4. 根据plugins.txt 定义的插件列表，预安装插件
+
+
 #### executors.groovy 
 
 定义jenkins并发作业的job数量
