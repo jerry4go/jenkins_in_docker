@@ -48,3 +48,8 @@ https://wiki.jenkins.io/display/JENKINS/Jenkins+behind+an+NGinX+reverse+proxy
 ## jenkins behind an apache reverse proxy
 
 https://wiki.jenkins.io/display/JENKINS/Running+Jenkins+behind+Apache
+
+## 参考文档
+
+https://github.com/jenkinsci/docker/blob/master/README.md
+
