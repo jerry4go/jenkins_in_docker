@@ -31,11 +31,11 @@ slave agent访问端口,如果不需要可以不开放
 
 ## 文件说明
 
-executors.groovy 
+#### executors.groovy 
 
 定义jenkins并发作业的job数量
 
-plugins.txt
+#### plugins.txt
 
 定义jenkins集成哪些插件，以及插件对应的版本
 
